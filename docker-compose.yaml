@@ -3,7 +3,7 @@ networks:
   expense:
 volumes:
   mysql: #docker volume create mysql
-service:
+services:
   mysql:
     image: pmahalakshmi25/mysql:v1
     container_name: mysql #like --name mysql
