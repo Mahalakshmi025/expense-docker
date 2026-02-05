@@ -19,6 +19,6 @@ services:
     image: pmahalakshmi25/frontend:v1
     container_name: frontend
     ports:
-      - "80:80" #-p 80:80
+      - 80:80 #-p 80:80
     depends_on:
       - backend
