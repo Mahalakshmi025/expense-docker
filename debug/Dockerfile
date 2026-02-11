@@ -1,3 +1,3 @@
 FROM almalinux:9
-RUN dnf intall telnet -y
+RUN dnf install telnet -y && dnf clean all
 CMD ["sleep", "20000"]
